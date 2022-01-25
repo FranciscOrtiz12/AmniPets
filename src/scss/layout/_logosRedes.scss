@@ -1,0 +1,21 @@
+.redes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+
+    
+    .redes-logo{
+        width: 50%;
+        transition: all 100ms;
+        padding: 2%;
+
+        &:hover{
+            padding: 0;      
+        }
+
+        a:last-of-type{
+            margin-right: 0;
+        }
+
+    }
+}

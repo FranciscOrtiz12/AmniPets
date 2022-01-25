@@ -1,0 +1,40 @@
+.contactanos-contenido{
+    padding: 5rem 0 5rem 0;
+    @include tablet{
+        @include grid(2,2rem);
+        .mapa{
+            width: 100%;
+        }
+    }    
+
+    .mapa{
+        margin: 0 auto;
+        padding: 2rem;
+        iframe{
+            width: 100%;
+        }
+    }
+
+}
+
+.contacto-text{
+    grid-row-start: 1;
+    color: $blanco;
+    text-align: center;
+    h2{
+        font-size: 5rem;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $blanco;
+        margin: 0 0 0 0;
+        &:last-of-type{
+            margin-bottom: 2rem;
+        }
+    }
+
+    .boton{
+        margin: 20px;
+    }
+    
+}

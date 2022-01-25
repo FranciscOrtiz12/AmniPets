@@ -1,0 +1,37 @@
+@include tablet{
+    .servicios-listado{
+       @include grid(4,2); 
+
+    }
+}
+
+.servicios-lista{
+    border: .3px solid #eaf0f0;
+    margin: 1rem;
+}
+.imagen{
+    width: 100%;
+}
+.servicio-contenido{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1rem;
+    text-align: center;
+    align-items: stretch;
+
+    h3{
+        letter-spacing: -1px;
+        padding: 0;
+        font-weight: $regular;
+        font-size: 2.3rem;
+    }
+    p{
+        font-weight: $delgada;
+        color: #767676;
+        font-size: 1.9rem;
+    }
+    .boton{
+        letter-spacing: 0px;
+        margin-bottom: 20px;
+    }
+}

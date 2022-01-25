@@ -1,0 +1,39 @@
+.equipo{
+    background-image: url('../img/fondoEquipo.webp');
+    
+}
+
+.equipo-contenido{
+    padding: 5rem 0 5rem 0;
+    img{
+        width: 85%;
+        margin: 0 auto; 
+    }
+    @include tablet{
+        @include grid(2,2rem);
+    }
+}
+
+
+
+.equipo-text{
+    color: white;
+    text-align: center;
+    margin: -30px 0 40px 0;
+
+    h2{
+        font-size: 8rem;
+        margin-bottom: 3rem;
+
+    }
+    p{
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: .8px;
+        margin-bottom: 4rem;
+    }
+    
+
+}
+
+

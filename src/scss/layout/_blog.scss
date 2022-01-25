@@ -1,0 +1,51 @@
+#blog{
+    border: none;
+    margin: 10rem 0 10rem 0;
+
+    /* INICIO LISTADO BLOGS */
+    .titulo{
+       font-size: 2.5rem;
+       &:hover{
+           cursor: pointer;
+           color: $rosa;
+       } 
+    }
+
+    .calendario{
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        margin: 1rem 0 1rem 0;
+        line-height: 0;
+        img{
+            align-items: center;
+            width: 4.3rem;
+            height: 4.3rem;
+            margin: 0 2% 0 1%;
+        }
+        .fecha{
+            color: darken($rosa, 6);
+            font-size: 2.3rem;
+            margin: 2%;
+        }
+
+        .icono-calendario{
+            margin: 2%;
+        }
+    }
+
+    .contenido-blog{
+        margin: 0;
+        padding: 3rem 1rem 3rem 1rem;
+        a{
+            align-items: flex-end;
+            color: white;
+        }
+    }
+    /* FIN LISTADO BLOGS */
+}
+
+/* INICIO BLOG UNICO */
+
+
+/* FIN BLOG UNICO */

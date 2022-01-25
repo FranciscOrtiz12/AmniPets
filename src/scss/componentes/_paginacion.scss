@@ -1,0 +1,32 @@
+.paginacion{
+    
+    padding: $separacion 0;
+    @include telefono{
+        display: flex;
+        justify-content: space-between;
+    }
+    @include tablet{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60rem;
+    }
+
+    button{
+        background-color: $rosa;
+        color: white;
+        border: none;
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+        transition: background-color 300ms ease;
+        &:hover{
+            cursor: pointer;
+            background-color: darken($rosa, 20%);
+        }
+    }
+}
+
+.ocultar{
+    visibility: hidden;
+}

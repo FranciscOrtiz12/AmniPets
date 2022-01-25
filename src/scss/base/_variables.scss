@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+// Fuentes
+$fuente_principal: 'Fira Sans', sans-serif;
+$fuente_cursiva: 'Dancing Script', cursive;
+$fuente_linda: 'Grand Hotel', cursive;
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// Colores
+$negro: #000000;
+$azul: #344a5f;
+$rosa: #e8817d;
+$verde: #71B100;
+$blanco: #FFFFFF;
+$gris: #e1e1e1;
+$amarillo: #E08709;
+$grisOscuro: #333333;
+$rojo: rgb(189, 7, 7);
+
+$separacion: 5rem;
+
+// Fuentes
+$delgada: 300;
+$regular : 400;
+$bold: 700;
+$black: 900

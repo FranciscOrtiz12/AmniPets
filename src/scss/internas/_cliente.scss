@@ -1,0 +1,38 @@
+.app{
+    h2{
+        font-family: $fuente_principal;
+        font-weight: $delgada;
+        font-size: 4rem;
+    }
+
+    input{
+        &:disabled{
+            background-color: lighten( $negro, 30% );
+            color: $blanco;
+            cursor: not-allowed;
+        }
+    }
+
+}
+
+.app-seccion{
+    padding: 5rem 0;
+    display: none;
+    .text-center{
+        text-align: center;
+    }
+    
+    .derecha{
+        float: right;
+    }
+}
+
+.mostrar{
+    display: block;
+}
+.ocultar{
+    display: none;
+}
+.comentario{
+    display: grid
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700;800&display=swap');
+
+.no-exis{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.dos-columnas{
+    margin-top: 30rem;
+
+    p{
+        text-align: center;
+    }
+    @include tablet{
+        .iss{
+            margin-top: -10rem
+        };
+
+        display: grid;
+        grid-template-columns: 40% 60%;
+        column-gap: 0.5rem;
+    }
+}

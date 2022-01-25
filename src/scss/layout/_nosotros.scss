@@ -1,0 +1,29 @@
+.no-webp .nosotros-imagen-inicio{
+    background-image: url('../img/equipo-clinic.jpg');
+    
+}
+
+
+.webp .nosotros-imagen-inicio{
+    background-image: url('../img/equipo-clinic.webp');
+}
+
+.nosotros-imagen-inicio{
+    background: linear-gradient(black,white);
+    height: 60rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+
+    .cont{
+        margin-top: 14rem;
+        h3{
+            font-size: 10rem;
+            font-family: $fuente_cursiva;
+            color: $blanco;
+            font-weight: $black;
+        }
+    }
+}

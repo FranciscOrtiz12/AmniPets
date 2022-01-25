@@ -1,0 +1,114 @@
+.alerta{
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+
+    &.error{
+        background-color: $rojo;
+    }
+
+    &.exito{
+        background-color: $verde;
+    }
+}
+
+table.listado {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+
+    thead{
+        background-color: $verde;
+        border-bottom: solid 5px #69a206;
+        th{
+            padding: 2rem;
+        }
+    }
+    tbody{
+        td{
+            padding: 1rem;
+            color: black;
+            height: 7rem;
+        }
+        .lis{
+            background-color: $blanco;
+        }
+
+        .lis:nth-child(even){ /* Esto escoge solo los hijos par */
+            background: #ddd;
+            padding: 1rem;
+        }
+        .lis:hover{
+            background: #83c410;
+            td{
+                color: $blanco !important;
+            }
+        }
+    }
+
+    th,td{
+        color: $blanco;
+        text-align: center;
+    }
+
+    .imagen-tabla{
+        width: 7rem;
+    }
+    .acciones{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+
+
+        .icono-accion{
+            width: 5rem;
+            padding: 0.3rem;
+            transition: all 200ms;
+
+            &:hover{
+                padding: 0px;
+            }
+        }
+    }
+}
+
+.tarjetas{
+
+    @include tablet{
+        @include grid(3,2rem);
+        text-align: center;
+    }
+
+    .tarjeta{
+        margin: 1.3rem;
+        text-align: center;
+        background: darken($verde, 5);
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        transition: all 100ms;
+
+        &:hover{
+            margin: 0;
+            background-color: darken($verde, 10);
+            a{
+                font-size: 5rem;
+            }
+        }
+        
+        a{
+            transition: all 100ms;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            font-family: $fuente_linda;
+            font-size: 4rem;
+            color: $blanco;
+            line-height: 15rem;
+        }
+    }
+}

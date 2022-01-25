@@ -1,0 +1,30 @@
+.listado-mascotas{
+    display: grid;
+    gap: 2rem;
+    @include tablet{
+        @include grid(3,2rem);
+    }
+
+}
+
+.mascota{
+
+    @include grid(2,2rem);
+
+    background-color: $rosa;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition-property: transform;
+    transition-duration: 200ms;
+    text-align: left;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    p {
+        color: $blanco;
+        margin: 0 0 0rem;
+    }
+
+}

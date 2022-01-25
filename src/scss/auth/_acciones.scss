@@ -1,0 +1,13 @@
+.login-acciones {
+    margin-top: $separacion;
+    @include tablet {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    a {
+        color: $rosa;
+        display: block;
+        text-align: center;
+    }
+}

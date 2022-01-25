@@ -1,0 +1,40 @@
+.black{
+    background-color: #000000;
+    color: #a0acb8;
+    padding: 1%;
+
+}
+.blog{
+    border: 1px solid #a0acb8;
+}
+
+.contenido-blog{
+    padding: 4%;
+    .calendario{
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        img{
+            width: 10%;
+            height: 10%;
+            margin: 0 5% 0 5%;
+        }
+    }
+
+    h2,h3{
+        color: #344a5f;
+    }
+    a{
+        color: darken($rosa, 6);
+    }
+    p{
+        color: #a0acb8;
+    }
+
+
+    a,h3:hover{
+        transition: all 100ms;
+        cursor: pointer;
+        color: $rosa;
+    }
+}

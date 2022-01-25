@@ -1,0 +1,41 @@
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/globales';
+@import 'base/botones';
+@import 'base/utilidades';
+@import 'base/darkMode';
+
+/* UI (User Interface)*/
+@import 'layout/header';
+@import 'layout/footer'; 
+@import 'layout/navegacion';
+@import 'layout/bannerini';
+@import 'layout/iconos';
+@import 'layout/listadomed';
+@import 'layout/listadoanun';
+@import 'layout/listadoblog';
+@import 'layout/listadoserv';
+@import 'layout/equipo';  
+@import 'layout/contactanos';
+@import 'layout/logosRedes';
+@import 'layout/formularios';
+@import 'layout/blog';
+@import 'layout/servicios';  
+@import 'layout/nosotros';  
+
+/* Login */
+@import 'auth/login';  
+@import 'auth/acciones';  
+
+/* Componentes */
+@import 'componentes/tabs';
+@import 'componentes/paginacion';
+@import 'componentes/lisMascotasCliente';
+@import 'componentes/lisControlesCliente';
+
+/* Paginas Internas */
+@import 'internas/404';     
+@import 'internas/admin';
+@import 'internas/cliente';
+

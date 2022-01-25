@@ -1,0 +1,30 @@
+.listado-controles{
+    display: grid;
+    gap: 2rem;
+    @include tablet{
+        @include grid(3,2rem);
+    }
+}
+
+.control{    
+    background-color: $rosa;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition-property: transform;
+    transition-duration: 200ms;
+    text-align: left;
+
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    p {
+        color: $blanco;
+        margin: 0 0 0rem;
+    }
+
+    .total-servicio{
+        font-size: 2.6rem;
+        color: darken($rosa, 45%);
+    }
+}

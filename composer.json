@@ -1,0 +1,23 @@
+{
+    "name": "franc/bienesraices",
+    "description": "Creando proyecto con poo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Francisco Ortiz",
+            "email": "Franciscortiz12d2000@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.6",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Classes\\" : "./classes"
+        }
+    }
+}

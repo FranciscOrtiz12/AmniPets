@@ -1,0 +1,48 @@
+.no-webp .imagen-inicio{
+    background-image: url('../img/imagenIndex.jpg');
+}
+
+
+.webp .imagen-inicio{
+    background-image: url('../img/imagenIndex.webp');
+}
+
+.imagen-inicio{
+    background: linear-gradient(black,white);
+    height: 60rem;
+    background-position: center 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .cont{
+        margin-top: 14rem;
+        @include tablet{
+            width: 50rem;
+            height: 40rem;
+            margin-left: 20rem;
+            margin-top: 10rem;
+        }
+
+        h3{
+            font-size: 6rem;
+            font-family: $fuente_cursiva;
+            color: $blanco;
+            font-weight: $black;
+            margin: 0 0 0 0;
+        }
+        
+        p{
+            font-size: 3rem;
+            font-family: $fuente_cursiva;
+            color: $blanco;
+            margin: -15px 0 15px 0px;
+        }
+
+        .boton{
+            margin-top: 2rem;
+        }
+    }
+}

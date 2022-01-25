@@ -1,0 +1,55 @@
+.login-logo{
+    margin: 5rem auto;
+    width: 20rem;
+}
+
+.caja{
+    background-color: rgba(233, 230, 230, 0.041);
+    margin: 4rem auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgba(236, 236, 236, 0.973);
+    box-shadow: 2px 4px 11px 0px rgba(231, 229, 229, 0.904) ;
+    width: 30rem;
+    height: auto;
+    padding: 2rem;
+
+    @include tablet{
+        min-width: 52rem;
+        width: 35%;
+        height: auto;
+    }
+}
+
+.formulario {
+    margin-top: 5rem;
+    width: 95%;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 0rem;
+    align-items: center;
+
+    @include tablet{
+        margin-bottom: 2rem;
+    }
+    label {
+        flex: 0 0 10rem;
+    }
+    input {
+        flex: 1;
+        border: none;
+        padding: 1rem;
+        border-radius: 1rem;
+
+        &:disabled{
+            color: $blanco;
+            cursor: not-allowed;
+        }
+    }   
+}
+
+.footer{
+    margin-top: 0;
+}
