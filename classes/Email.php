@@ -23,8 +23,8 @@ class Email{
         $mail->Host = 'smtp.mailtrap.io';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = '176884d80af054';
-        $mail->Password = '342a04ca71db54';
+        $mail->Username = '';
+        $mail->Password = '';
 
         $mail->setFrom('cuentas@AmniPets.com');
         $mail->addAddress('cuentas@AmniPets.com', 'AmniPets.com');
@@ -52,8 +52,8 @@ class Email{
         $mail->Host = 'smtp.mailtrap.io';
         $mail->SMTPAuth = true;
         $mail->Port = 2525;
-        $mail->Username = '176884d80af054';
-        $mail->Password = '342a04ca71db54';
+        $mail->Username = '';
+        $mail->Password = '';
 
         $mail->setFrom('cuentas@AmniPets.com');
         $mail->addAddress('cuentas@AmniPets.com', 'AmniPets.com');
